@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="윤나영" />
+    <mata name="keywords" content="빅데이터, django, python" />
+    <title>Welcome to Summer Store</title>
+    <script src= "https://kit.fontawesome.com/30c6200ca7.js" crossorigin="anonymous"></script>
+    <style>
+        *{
+            font-family: "함초롱바탕", Arial, Helvetica, sans-serif;
+            line-height: 150%;
+        }
+        header h1{
+            display: inline-table;
+            height: fit-content;
+            font-size: 1.7em;
+        }
+        ul {
+            list-style-type: none;
+        }
+        a {
+            text-decoration: none;
+        }
+        nav ul{
+            border-top: 1.5px solid lightgray;
+            border-bottom: 2px solid gray;
+            border-bottom-style: outset;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav ul li{
+            display: inline;
+            padding: 15px 20px;
+            letter-spacing: 5px;
+        }
+        nav ul li:hover {
+            background-color: lavender;
+        }
+        .photo > img {
+            padding-top: 50px;
+            display: block;
+            margin: 0 auto;
+            width: 50%;
+        }
+        .right{
+            margin-top: 30px;
+        }
+        body{
+            margin: 0 auto;
+            width: 80vw;
+            background-color: whitesmoke;
+        }
+        header{
+            height: 90px;
+            font-size: 1.5em;
+        }
+        nav {
+            height: 50px;
+        }
+        section{
+            display: flex;
+        }
+        .content{
+            flex: 4;
+        }
+        aside{
+            flex: 1;
+            height: 20px;
+            margin: 2px;
+            font-size: 1em;
+        }
+        footer{
+            background-color: lightsteelblue;
+            color: black;
+            padding: 5px 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<!--header+nav+section>article*3+aside^footer-->
+<body>
+    <header id="home">
+    <h1>🖤Summer Store🧸</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="./NEW.html" target="_parent"> NEW </a></li>
+            <li><a href="./BEST.html" target="_parent"> BEST </a></li>
+            <li><a href="./MADE.html" target="_parent"> #MADE </a></li>
+            <li><a href="./OUTER.html" target="_parent">OUTER </a></li>
+            <li><a href="./TOP.html" target="_parent">TOP </a></li>
+            <li><a href="./BOTTOM.html" target="_parent">BOTTOM </a></li>
+            <li><a href="./BAG&SHOES.html" target="_parent">BAG&SHOES </a></li>
+            <li><a href="./EVENT.html" target="_parent">EVENT </a></li>
+        </ul>
+    </nav>
+    
+    <section>
+    <article>
+        <div class="photo">  <!-- . : class, # : id-->
+            <img src="./images/IMG_20210721_150717_448.jpg" alt="제주도">
+            <img src="./images/IMG_20210721_171548_680.jpg" alt="제주도">
+    <br>
+    <br>
+    <br>        
+
+        <div class="media">
+            <iframe width="1400" height="1015" src="https://www.youtube.com/embed/pNelrxYqLig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>➡️ MY FAVORITE SUMMER LOOKBOOK VIDEO🌿</h3>
+            <audio src="./media/금요일에 만나요_Highlight.mp3" autoplay controls></audio>
+        </div> 
+    </article>
+ 
+    </div>
+    <aside class="right">
+        <div class="login">
+            <form action="#" method="post">
+                ID : <input type="text" name="id" id=""><br>
+                PW : <input type="password" name="pw" id=""> <br>
+                <input type="submit" value="제출">
+                <input type="button" value="회원가입">
+            </form>
+           
+            <br>
+            <br>
+            <br>
+
+        </div>
+        <div class="bookmark">
+            <i class="fa-regular fa-envelope"></i>
+            <a href="http://m.blog.naver.com/skdud2898" target="_blank"> 네이버 블로그</a><br>
+            <i class="fa-regular fa-image"></i>
+            <a href="./gallery.html">갤러리</a><br>
+            <i class="fa-brands fa-youtube"></i>
+            <a href="https://www.youtube.com/channel/UCgzL6gkYGfkeIByp96iEepQ" target="_blank">youtube</a><br>
+        </div>
+            
+     </aside>
+    </section>
+    <footer>
+        company 주식회사 엔와이컴퍼니 | owner 윤나영 | cpo 윤나영 | tel. 010 7644 2898 | mail. skdud2898@naver.com
+        <br>
+        address 서울특별시 감남구 도산대로51길 12
+        <br>
+        copyright (c) summer store all rights reserved.
+        <div class="sns">
+            <i class="fa brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+    </footer>
+</body>
+</html>
